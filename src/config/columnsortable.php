@@ -38,7 +38,7 @@ return [
     /*
     generated icon is clickable non-clickable (default)
      */
-    'clickable_icon'                => false,
+    'clickable_icon'                => true,
 
     /*
     icon and text separator (any string)
@@ -105,7 +105,7 @@ return [
     /*
     default direction for non-sorted columns
      */
-    'default_direction_unsorted'    => 'asc',
+    'default_direction_unsorted'    => 'desc',
 
     /*
     use the first defined sortable column (Model::$sortable) as default
@@ -119,3 +119,5 @@ return [
     */
     'join_type'                     => 'leftJoin',
 ];
+
+?>
