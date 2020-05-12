@@ -119,5 +119,3 @@ return [
     */
     'join_type'                     => 'leftJoin',
 ];
-
-?>
